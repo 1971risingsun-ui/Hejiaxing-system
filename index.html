@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -37,7 +36,8 @@
 </head>
 <body>
     <div id="root"></div>
-    <!-- Vite 會處理這裡的 TSX 轉換 -->
-    <script type="module" src="/index.tsx"></script>
+    <!-- 修正為相對路徑，讓 Vite 構建時能正確解析 -->
+    <script type="module" src="./index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>
