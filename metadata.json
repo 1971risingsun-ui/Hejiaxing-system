@@ -1,0 +1,7 @@
+{
+  "name": "合家興 AI 家庭助手",
+  "description": "一個專為家庭和睦、情感聯繫與生活建議設計的智慧 AI 助手。提供家庭諮詢、回憶老照片分析及精美長輩祝福語生成。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
